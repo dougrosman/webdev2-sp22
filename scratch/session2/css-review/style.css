@@ -1,0 +1,22 @@
+header {
+    background: lightblue;
+}
+
+a {
+    color: magenta;
+}
+
+p a {
+    color: brown;   
+}
+
+.red-text {
+    color: red;
+}
+
+#page-title {
+    font-family: cursive;
+    text-shadow: 10px 10px magenta;
+    color: green;
+}
+
