@@ -1,0 +1,36 @@
+
+
+.box {
+    width: 50vw;
+    height: 20vh;
+    background: lightgray;
+    color: black;
+
+    font-size: 30px;
+    padding: 1em;
+    border: 2px solid red;
+    transition: background-color 1s;
+}
+
+.box:hover {
+    background: orange;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0;
+    outline: 2px solid blue;
+    text-align: center;
+}
+
+.absolute {
+    position: fixed;
+    background: darkblue;
+    z-index: 1;
+
+    right: 0;
+    bottom: 0;
+}
+
+
+

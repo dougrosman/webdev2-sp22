@@ -1,9 +1,16 @@
+:root {
+    --color-links: magenta;
+    --color-primary: blue;
+    --color-secondary: white;
+}
+
 header {
     background: lightblue;
+    color: var(--color-primary);
 }
 
 a {
-    color: magenta;
+    color: var(--color-links);
 }
 
 p a {
@@ -15,8 +22,8 @@ p a {
 }
 
 #page-title {
+    color: var(--color-primary);
     font-family: cursive;
     text-shadow: 10px 10px magenta;
-    color: green;
 }
 
