@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #222;
+  --clr-secondary: #eee;
+  --clr-link: #b13a0f;
+  --font-headers: 'Oswald', sans-serif;
+  --font-body: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+body {
+  color: var(--clr-primary);
+  background: var(--clr-secondary);
+  font-family: var(--font-body);
+}
+
+nav {
+  margin-top: 1em;
+}
+
+nav a {
+  margin-right: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headers);
+  font-weight: 500;
+}
+
+h2 {
+  margin: .5em 0;
+}
+
+.article-title {
+  font-size: 3rem;
+}
+
+h3 {
+  margin: .5em 0;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 80ch;
+  padding: 1em;
+}
+
+a {
+  color: var(--clr-link);
+}
+
+a:hover {
+  filter: brightness(.75);
+}
+
+header, footer {
+  background: var(--clr-primary);
+  color: var(--clr-secondary);
+}
+
+section {
+  margin: 3em 0;
+}
+
+footer {
+  text-align: center;
+}
