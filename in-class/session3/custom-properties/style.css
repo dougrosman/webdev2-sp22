@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-headings: rgb(200, 20, 20);
+    --clr-body: #222;
+    --max-width: 30ch;
+
+    --font-family: 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--clr-headings);
+    max-width: var(--max-width);
+}
+
+p {
+    --spacing: 2em;
+    color: var(--clr-body);
+    max-width: var(--max-width);
+    background: lightgray;
+
+    margin: var(--spacing);
+    padding: var(--spacing);
+}
