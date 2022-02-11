@@ -32,6 +32,7 @@ header {
 main {
     max-width: 20rem;
     margin: 3em auto;
+    padding: 1em;
 }
 
 footer {
