@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+    font-size: clamp(1rem, 1rem + 1vw, 2rem);
+}
+
+
+.hero {
+    min-height: 100vh;
+    background-image: url('//picsum.photos/id/406/1920/1080');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content {
+    margin: 0 calc(1em + 6vw);
+    margin-top: -6em;
+    max-width: 25rem;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.hero-subtitle {
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
