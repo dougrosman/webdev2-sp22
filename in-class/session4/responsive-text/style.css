@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Rosarivo:ital@0;1&family=Unica+One&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+    --ff-title: 'Unica One', cursive;
+    --ff-heading: 'Rosarivo', serif;
+    --ff-body: 'Martel', serif;
+
+    --clr-heading: #e26555;
+    --clr-body: #4a599e;
+    --clr-accent: #57a799;
+    --clr-bg: #dadeea;
+
+    --fs-title: clamp(2rem, 2rem + 6vw, 6rem);
+    --fs-400: clamp(1rem, 1rem + 2vw, 1.25rem);
+    --fs-600: clamp(1rem, 1.25rem + 2vw, 1.5rem);
+    --fs-700: clamp(1.5rem, 1.5rem + 4vw, 4rem);
+
+    --spacing1: calc(3em + 10vh) auto;
+}
+
+h1 {
+    font-family: var(--ff-title);
+    font-size: var(--fs-title);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--ff-heading);
+    color: var(--clr-heading);
+    margin-bottom: 1em;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    color: var(--clr-accent);
+}
+
+a:hover {
+    color: var(--clr-heading);
+}
+
+nav a:hover {
+    color: var(--clr-body);
+}
+
+nav {
+   margin: 2em 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--clr-bg);
+    margin: 0 1em;
+}
+
+body {
+    font-family: var(--ff-body);
+    min-height: 100vh;
+    background: var(--clr-bg);
+    color: var(--clr-body);
+}
+
+header {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: rgb(87,167,153);
+    background: linear-gradient(63deg, rgba(87,167,153,1) 0%, rgba(226,101,85,1) 50%, rgba(218,222,234,1) 100%); 
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.services {
+    font-size: var(--fs-700);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin: var(--spacing1);
+}
+
+@media(max-width: 30rem) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+section {
+    max-width: 60rem;
+    margin: var(--spacing1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    place-items: center;
+}
+
+section img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.mission-statement {
+    margin: var(--spacing1);
+    font-size: var(--fs-600);
+}
+
+footer {
+    text-align: center;
+}
