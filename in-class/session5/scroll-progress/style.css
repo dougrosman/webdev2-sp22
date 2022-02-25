@@ -1,0 +1,20 @@
+
+
+p {
+    font-size: 2rem;
+}
+
+
+.progress-container {
+    width: 90vw;
+    height: 1rem;
+    background: gray;
+    position: fixed;
+    top: 0;
+}
+
+.progress-bar {
+    height: 1rem;
+    background: green;
+    width: 0;
+}

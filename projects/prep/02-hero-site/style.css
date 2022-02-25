@@ -3,6 +3,7 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 :root {
+    /* clamp(min, ideal value, max)     */
     font-size: clamp(1rem, 1rem + 1vw, 2rem);
 
     --font-headings: 'Oswald', sans-serif;

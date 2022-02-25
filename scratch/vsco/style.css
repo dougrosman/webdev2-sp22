@@ -1,0 +1,66 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+    --c1: hsla(0, 100%, 80%, 1);
+    --c2: hsla(40, 100%, 80%, 1);
+    --c3: hsla(80, 100%, 80%, 1);
+    --c4: hsla(120, 100%, 80%, 1);
+    --c5: hsla(160, 100%, 80%, 1);
+    --c6: hsla(200, 100%, 80%, 1);
+    --c7: hsla(240, 100%, 80%, 1);
+    --c8: hsla(280, 100%, 80%, 1);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: lightgray;
+    /* position: fixed;
+    z-index: 10;
+    width: 100vw; */
+}
+
+nav a {
+    margin: 0 .25em;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-size: clamp(2rem, 2rem + 1vw, 4rem);
+    position: sticky;
+    top: 0;
+}
+
+.short {
+    min-height: 40vh;
+    background: black;
+    color: white;
+}
+
+.c1 {background: var(--c1);}
+.c2 {background: var(--c2);}
+.c3 {background: var(--c3);}
+.c4 {background: var(--c4);}
+.c5 {background: var(--c5);}
+.c6 {background: var(--c6);}
+.c7 {background: var(--c7);}
+.c8 {background: var(--c8);}
+
+footer {
+    background: black;
+    color: white;
+    padding: 3em;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}
