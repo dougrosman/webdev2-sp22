@@ -1,0 +1,16 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+html {
+    font-family: Arial;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background: blue;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: white;
+}
