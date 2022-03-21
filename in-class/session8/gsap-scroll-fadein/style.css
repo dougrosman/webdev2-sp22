@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+html {
+    font-family: Arial;
+}
+
+header {
+    padding: 1em;
+    height: 100vh;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 20em 1em;
+    max-width: 30rem;
+    opacity: 1;
+    position: relative;
+}

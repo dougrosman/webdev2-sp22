@@ -13,4 +13,21 @@ gsap.to('.box', {
   x: 800,
   rotation: 360,
   duration: 3
+  
 })
+
+let paragraphs = document.querySelectorAll('.fade');
+
+console.log(paragraphs);
+
+paragraphs.forEach(p => {
+  gsap.to(p,{
+    scrollTrigger: {
+      trigger: p,
+      start: 'center 80%'
+    },
+    opacity: 1,
+    duration: 3
+  })
+})
+

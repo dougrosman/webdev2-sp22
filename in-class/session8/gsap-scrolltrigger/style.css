@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+html {
+    font-family: Arial;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background: blue;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+p {
+    margin: 1em;
+    font-size: 2rem;
+    max-width: 20rem;
+}
