@@ -1,0 +1,8 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background: rgb(200, 100, 20);
+    margin: .5em;
+}
