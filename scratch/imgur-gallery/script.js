@@ -21,7 +21,6 @@ let boxes;
 function loadImage(url) {
 
   let img = new Image();
-  img.crossOrigin = "anonymous"
   img.onload = function() {
     let dims = [this.width, this.height];
       
