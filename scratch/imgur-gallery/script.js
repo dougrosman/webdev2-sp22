@@ -4,9 +4,7 @@ function generateURL(len) {
   let randomString = '';
   for(let i = 0; i < len; i++) {
       const randomIndex = Math.floor(Math.random() * chars.length);
-
       const randomChar = chars[randomIndex];
-      
       randomString+=randomChar;
   }
 
@@ -23,6 +21,7 @@ let boxes;
 function loadImage(url) {
 
   let img = new Image();
+  img.crossOrigin = "anonymous"
   img.onload = function() {
     let dims = [this.width, this.height];
       
@@ -33,11 +32,9 @@ function loadImage(url) {
           gallery.appendChild(img);
       }
   }
-
   img.src = url;
-  
 }
 
 for(let i = 0; i < 30; i++) {
-  loadImage(generateURL(5));
+  loadImage(generateURL(4));
 }
