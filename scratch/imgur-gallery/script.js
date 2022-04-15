@@ -35,5 +35,5 @@ function loadImage(url) {
 }
 
 for(let i = 0; i < 30; i++) {
-  loadImage(generateURL(4));
+  loadImage(generateURL(5));
 }
