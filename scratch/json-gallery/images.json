@@ -1,23 +1,23 @@
 {
   "images": [
     {
-      "src": "cat.jpg",
+      "img_src": "cat.jpg",
       "alt": "a cute cat"
     },
     {
-      "src": "dolphin.jpg",
+      "img_src": "dolphin.jpg",
       "alt": "some cute dolphins"
     },
     {
-      "src": "fish.jpg",
+      "img_src": "fish.jpg",
       "alt": "a spiky fish"
     },
     {
-      "src": "giraffe.jpg",
+      "img_src": "giraffe.jpg",
       "alt": "some cute giraffes"
     },
     {
-      "src": "hamster.jpg",
+      "img_src": "hamster.jpg",
       "alt": "a cute hamster"
     }
   ]

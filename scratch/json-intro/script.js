@@ -1,26 +1,28 @@
-loadImages();
+loadData();
 
-function loadImages() {
+function loadData() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     const imageInfo = JSON.parse(this.response);
     console.table(imageInfo);
     generateGallery(imageInfo);
   }
-  xhttp.open("GET", "images.json");
+  xhttp.open("GET", "data.json");
   xhttp.send();
 }
 
+
+
 async function generateGallery(data) {
-  const gallery = document.querySelector('.gallery');
+  const gallery = document.querySelector('#catContainer');
   
-  for(image of data.images) {
+  for(cat of data.cat) {
 
     const card = document.createElement("div");
     card.classList.add("gallery__card")
 
     const img = new Image();
-    img.src = "images/" + image.img_src;
+    img.src = "images/" + image.src;
     img.alt = image.alt;
     img.classList.add("gallery__card-img");
 

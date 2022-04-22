@@ -1,0 +1,9 @@
+{
+  "products": [
+    {
+      "name": "television",
+      "year": 2022,
+      "model": "a cute cat"
+    },
+  ]
+}
